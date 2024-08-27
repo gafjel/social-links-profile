@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    padding: 100px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    box-sizing: border-box;
+    width: 452px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-family: Inter;
+    padding: 40px;
+}
+
+img{
+    width: 30%;
+    margin: 20px 120px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 700px;
+    letter-spacing: 0.1rem;
+}
+
+h2{
+    font-weight: 400px;
+    font-size: 1rem;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin: 10px 0;
+}
+
+p{
+    font-weight: 400px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    padding: 20px 50px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    margin: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
